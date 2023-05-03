@@ -1,5 +1,7 @@
 A projektben minden működik, az eredeti adatokat a fejlécben a három pont alatti Fetch Data opcióval lehet betölteni (ez megeshet, hogy nem működik először - ilyenkor csak katt a recipe fülre, és meg fog jelenni a lenyíló fül). Az eredeti recepteket kérlek ne töröld ki, hozz létre újat és azt töröld ki ha teszteled a működést. Miután végeztél az értékeléssel mentsd el a recepteket úgy, ahogy alapjáraton voltak, mert éles az adatbázis, a többi értékelő is látja ha valamit bennehagysz. Ha bármi kérdésed van akkor keress discordon: grrr#2833, vagy coospacen: Végh Natasa (BYIH3H).
 
+Host: https://recipe-book-8c175.web.app/shopping-list
+
 # RecipeBook
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.18.
