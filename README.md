@@ -5,7 +5,7 @@ Host: https://recipe-book-8c175.web.app/shopping-list
 Saját értékelés:
 
 
-![kép](https://user-images.githubusercontent.com/132405411/236050391-023434a0-d8ad-4fc8-85e5-2be56f00b277.png)
+![kép](https://user-images.githubusercontent.com/132405411/236053503-ecce3d8d-db92-4b34-ac23-6d01291f018f.png)
 
 
 # RecipeBook
