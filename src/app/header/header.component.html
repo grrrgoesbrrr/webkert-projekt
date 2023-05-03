@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+  <a mat-button routerLink="/" style="font-size: 1.5em;">Recipe Book</a>
+  <span class="spacer"></span>
+  <a mat-button routerLink="/recipes" routerLinkActive="active">Recipes</a>
+  <a mat-button routerLink="/shopping-list" routerLinkActive="active">Shopping List</a>
+  <button mat-icon-button [matMenuTriggerFor]="menu">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="onSaveData()">Save data</button>
+    <button mat-menu-item (click)="onFetchData()">Fetch data</button>
+  </mat-menu>
+</mat-toolbar>
+

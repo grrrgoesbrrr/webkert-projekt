@@ -1,0 +1,14 @@
+<div fxLayout="column" fxLayoutAlign="center center">
+    <mat-card>
+      <mat-card-content>
+        <app-shopping-edit></app-shopping-edit>
+        <hr>
+        <mat-list>
+          <a mat-list-item style="cursor: pointer" *ngFor="let ingredient of ingredients; let i = index" (click)="onEditItem(i)">
+            <h4 mat-line>{{ ingredient.name }}</h4>
+            <p mat-line>{{ ingredient.amount }}</p>
+          </a>
+        </mat-list>
+      </mat-card-content>
+    </mat-card>
+  </div> 
